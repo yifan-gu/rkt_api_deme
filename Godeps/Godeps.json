@@ -1,0 +1,38 @@
+{
+	"ImportPath": "github.com/yifan-gu/rkt_api_deme",
+	"GoVersion": "go1.4",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/bradfitz/http2",
+			"Rev": "6608b73ef18668469ee5365431dc3a106502c449"
+		},
+		{
+			"ImportPath": "github.com/coreos/rkt/api/v1alpha",
+			"Comment": "v0.8.1-421-gb14a1be",
+			"Rev": "b14a1be4dea9a1c3898691f9a309c1ef0ffbff56"
+		},
+		{
+			"ImportPath": "github.com/golang/protobuf/proto",
+			"Rev": "5baca1b63153b1a82014546382edbdd302b138b6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "2cba614e8ff920c60240d2677bc019af32ee04e5"
+		},
+		{
+			"ImportPath": "golang.org/x/net/internal/timeseries",
+			"Rev": "2cba614e8ff920c60240d2677bc019af32ee04e5"
+		},
+		{
+			"ImportPath": "golang.org/x/net/trace",
+			"Rev": "2cba614e8ff920c60240d2677bc019af32ee04e5"
+		},
+		{
+			"ImportPath": "google.golang.org/grpc",
+			"Rev": "4bd040ce23a624ff9a1d07b0e729ee189bddd51c"
+		}
+	]
+}
